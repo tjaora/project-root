@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<header class="nav"><div class="logo-area"><img src="assets/logo.png" alt="Contact logo" class="logo" /><span class="brand">Contact</span></div></header>
+<main>
+<section class="section">
+  <h2>Contact</h2>
+  <div class="card" style="max-width:720px">
+    <form id="contactForm">
+      <input id="from_email" type="email" placeholder="Your email" required />
+      <input id="subject" type="text" placeholder="Subject" required style="margin-top:8px" />
+      <textarea id="message" rows="6" placeholder="Message" required style="margin-top:8px"></textarea>
+      <div style="margin-top:10px;display:flex;gap:8px"><button class="btn" type="submit">Send Message</button><button class="btn outline" type="reset">Clear</button></div>
+      <div class="small" style="margin-top:8px;color:var(--muted)">This form uses EmailJS. Replace keys in js/main.js with your EmailJS User ID, Service ID & Template ID.</div>
+    </form>
+    <div style="margin-top:12px"><a class="btn" href="https://m.me/tasnimuljannatniha" target="_blank" rel="noopener noreferrer">Message on Messenger</a></div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">© 2025</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
