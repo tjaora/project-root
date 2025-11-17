@@ -224,8 +224,3 @@ form textarea {
   line-height: 1.6;
   margin-bottom: 12px
 }
-
-.section a {
-  color: var(--accent1);
-  text-decoration: none
-}
