@@ -48,7 +48,7 @@ async function loadRepos(username){
     repos.forEach(r=>{
       const d = document.createElement('div');
       d.className = 'card';
-      d.innerHTML = `<h3>${r.name}</h3><p>${r.description||''}</p><div style="margin:10px"><a class="btn outline" href="${r.html_url}" target="_blank">GitHub</a> <a class="btn" href="${r.html_url.replace('github.com','github.io')}" target="_blank">Live</a></div>`;
+      d.innerHTML = `<h3>${r.name}</h3><p>${r.description||''}</p><div style="margin:10px"><a class="btn outline" href="${r.html_url}" target="_blank">GitHub</a> </div>`;
       grid.appendChild(d);
     });
   }catch(e){ console.error(e); grid.innerHTML = '<div class="card">Failed to load repos.</div>'; }
