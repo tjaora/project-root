@@ -151,7 +151,8 @@ html, body {
   padding: 16px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.03);
-  box-shadow: var(--glow)
+  box-shadow: var(--glow);
+  gap: 20px;
 }
 
 .grid {
