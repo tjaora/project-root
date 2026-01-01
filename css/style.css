@@ -141,15 +141,13 @@ html, body {
   width: 100%;
   max-width: 360px;
   border-radius: 12px;
-  justify-items: center;
   box-shadow: var(--glow);
-  border: 1px solid rgba(255, 255, 255, 0.03)
-}
-.hero-photo card{
+  border: 1px solid rgba(255, 255, 255, 0.03);
   display: flex;
   justify-items: center;
   align-items: center;
 }
+
 .card {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(255, 255, 255, 0.01));
   padding: 16px;
