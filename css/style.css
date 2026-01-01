@@ -118,6 +118,8 @@ html, body {
   list-style: none;
   display: none;
   text-decoration: none;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .hero {
