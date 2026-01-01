@@ -198,7 +198,7 @@ form textarea {
   .mobile-menu.show {
     display: block;
     padding: 12px;
-    background: transparent 45%;
+    background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
   }
 
@@ -210,7 +210,7 @@ form textarea {
   }
 
   .mobile-navlinks a {
-    color: transparent 50%;
+    color: var(--muted);
     text-decoration: none;
     padding: 12px 10px;
     border-radius: 8px;
