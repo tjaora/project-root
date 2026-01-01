@@ -229,6 +229,7 @@ form textarea {
     color: #a3c0ab;
     padding: 12px 10px;
     border-radius: 8px;
+    text-decoration: none;
     display: block
   }
 
