@@ -209,6 +209,7 @@ form textarea {
     padding: 12px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
+    text-decoration: none;
   }
 
   .mobile-navlinks {
