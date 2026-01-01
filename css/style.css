@@ -214,7 +214,7 @@ form textarea {
   }
 
   .mobile-menu.show {
-    display: block;
+    display: none;
     padding: 12px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
