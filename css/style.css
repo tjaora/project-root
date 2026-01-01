@@ -116,7 +116,8 @@ html, body {
 
 .mobile-navlinks {
   list-style: none;
-  display: none
+  display: none;
+  text-decoration: none;
 }
 
 .hero {
@@ -206,7 +207,7 @@ form textarea {
   }
 
   .mobile-menu {
-    display: block
+    display: none
   }
 
   .mobile-menu.show {
@@ -229,7 +230,6 @@ form textarea {
     color: #a3c0ab;
     padding: 12px 10px;
     border-radius: 8px;
-    text-decoration: none;
     display: block
   }
 
