@@ -141,7 +141,7 @@ html, body {
   width: 100%;
   max-width: 360px;
   border-radius: 12px;
-  align-items: center;
+  justify-items: center;
   box-shadow: var(--glow);
   border: 1px solid rgba(255, 255, 255, 0.03)
 }
