@@ -198,7 +198,8 @@ form textarea {
   .mobile-menu.show {
     display: block;
     padding: 12px;
-    background: var(--panel)
+    background: transparent 45%;
+    backdrop-filter: blur(10px);
   }
 
   .mobile-navlinks {
