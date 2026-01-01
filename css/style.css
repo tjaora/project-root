@@ -70,7 +70,7 @@ html, body {
 
 .navlinks a:hover {
   background: var(--glass);
-  color: #fff;
+  color: #dad7d7;
   transform: translateY(-2px)
 }
 
