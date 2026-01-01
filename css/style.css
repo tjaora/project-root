@@ -210,7 +210,7 @@ form textarea {
   }
 
   .mobile-menu {
-    display: none;
+    display: block;
   }
 
   .mobile-menu.show {
