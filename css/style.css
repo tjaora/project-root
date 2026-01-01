@@ -111,7 +111,7 @@ html, body {
 }
 
 .mobile-menu {
-  display: none
+  display: block
 }
 
 .mobile-navlinks {
@@ -219,14 +219,10 @@ form textarea {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
     text-decoration: none;
-  }
-
-  .mobile-navlinks {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
     gap: 12px
   }
+
+  
 
   .mobile-navlinks a {
     color: #0e1624;
