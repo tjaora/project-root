@@ -57,6 +57,7 @@ html, body {
 .navlinks {
   list-style: none;
   display: flex;
+  text-decoration: none;
   gap: 18px;
   align-items: center
 }
