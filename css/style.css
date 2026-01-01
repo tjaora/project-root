@@ -111,12 +111,12 @@ html, body {
 }
 
 .mobile-menu {
-  display: block
+  display: none
 }
 
 .mobile-navlinks {
   list-style: none;
-  display: block;
+  display: none;
   padding: 1rem;
   text-decoration: none;
   flex-direction: column;
