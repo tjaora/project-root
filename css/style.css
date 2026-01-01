@@ -111,7 +111,7 @@ html, body {
 }
 
 .mobile-menu {
-  display: none
+  display: block
 }
 
 .mobile-navlinks {
