@@ -233,7 +233,7 @@ form textarea {
     color: #a3c0ab;
     padding: 12px 10px;
     border-radius: 8px;
-    display: block
+    display: none
   }
 
   .mobile-navlinks a:hover {
