@@ -223,9 +223,9 @@ form textarea {
 
   .mobile-navlinks {
     list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 12px
+    display: none;
+    padding: 1rem;
+    text-decoration: none;
   }
 
   .mobile-navlinks a {
