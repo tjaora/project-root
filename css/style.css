@@ -111,17 +111,14 @@ html, body {
 }
 
 .mobile-menu {
-  display: block
+  display: none
 }
 
 .mobile-navlinks {
   list-style: none;
-  display: block;
-  padding: 1rem;
-  text-decoration: none;
-  flex-direction: column;
-  gap: 12px;
+  display: none
 }
+
 
 .hero {
   display: grid;
@@ -218,20 +215,18 @@ form textarea {
     padding: 12px;
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px);
-    
-    gap: 12px
   }
 
   .mobile-navlinks {
+    list-style: none;
     display: flex;
     flex-direction: column;
     gap: 12px;
-    text-decoration: none;
   }
 
   .mobile-navlinks a {
-    color: #0e1624;
-    color: #a3c0ab;
+    color: var(--muted);
+    text-decoration: none;
     padding: 12px 10px;
     border-radius: 8px;
     display: block
