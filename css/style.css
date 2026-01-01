@@ -200,6 +200,26 @@ form textarea {
     padding: 12px;
     background: var(--panel)
   }
+
+  .mobile-navlinks {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+  }
+
+  .mobile-navlinks a {
+    color: var(--muted);
+    text-decoration: none;
+    padding: 12px 10px;
+    border-radius: 8px;
+    display: block
+  }
+
+  .mobile-navlinks a:hover {
+    background: var(--glass);
+    color: #fff
+  }
 }
 
 .small {
